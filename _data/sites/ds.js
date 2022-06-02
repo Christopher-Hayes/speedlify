@@ -1,9 +1,6 @@
 module.exports = {
 	name: 'Digital Surgeons',
 	description: 'Digital Surgeons\' main agency website',
-	// skip if localhost
-	// skip if this is a new fork of the speedlify (not Zach’s)
-	skip: !process.env.CONTEXT || process.env.SITE_NAME !== 'speedlify',
 	options: {
 		frequency: 60 * 23, // 23 hours
 		// Use "run" if the sites don’t share assets on the same origin
@@ -14,6 +11,8 @@ module.exports = {
 	},
 	urls: [
 		// DS
-		'https://digitalsurgeons.com/',
+		'https://www.digitalsurgeons.com/',
+		'https://www.digitalsurgeons.com/work/',
+		'https://www.digitalsurgeons.com/thoughts/'
 	]
 };
