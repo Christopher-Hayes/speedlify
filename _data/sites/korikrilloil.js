@@ -22,6 +22,6 @@ module.exports = {
 		// "Homepage"
 		'https://shop.korikrilloil.com/',
 		// Product page
-		'https://shop.korikrilloil.com/products/standard-1200-mg-softgels',
+		'https://shop.korikrilloil.com/products/standard-1200-mg-softgels'
 	]
 };
