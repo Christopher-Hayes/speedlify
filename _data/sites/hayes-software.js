@@ -1,6 +1,6 @@
 module.exports = {
-	name: 'hayes.software',
-	description: 'My personal site',
+	name: 'Personal site',
+	description: 'My personal site, hayes.software, running 11ty + tailwind + alpine.',
 	options: {
 		frequency: 60 * 24 * 1, // At most, every 1 day
 		// Use "run" if the sites don’t share assets on the same origin
